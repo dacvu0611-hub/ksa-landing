@@ -1,10 +1,10 @@
 import React from "react";
 
-const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfZixratTMvOYckawFaWbRaKQ54wL8mCGc4ugrzr-fMRtVdrA/viewform?usp=dialog";
+const GOOGLE_FORM_URL = "https://forms.gle/LsvyWj2p6QWHtHy8A";
 
 const teachers = [
   {subject:"Vật Lý",className:"Lớp Vật Lý",name:"Thầy Nguyễn Văn Phú",shortName:"Thầy Phú",poster:"/images/thay-phu.png",quote:"Giáo dục như ánh thái dương phản chiếu cả đến những gian nhà cổ thấp bé, mái tranh của con nhà nghèo.",tags:["Luyện thi","Dạy Vật Lý 9-12","Hơn 5 năm kinh nghiệm","90% học sinh TBM trên 8"],phone:"0357 432 561"},
-  {subject:"Toán",className:"Lớp Toán",name:"Thầy Vũ",shortName:"Thầy Vũ",poster:"/images/thay-vu.jpg",quote:"Trí tuệ không chỉ là sản phẩm của việc học mà là của nỗ lực cả đời để có được.",tags:["Luyện thi 9 lên 10","Dạy THCS-THPT","Lấy lại căn bản","Bồi dưỡng khá - giỏi"],phone:"0935 626 527"},
+  {subject:"Toán",className:"Lớp Toán",name:"Thầy Vũ",shortName:"Thầy Vũ",poster:"/images/thay-vu.jpg",quote:"Trí tuệ không chỉ là sản phẩm của việc học mà là của nỗ lực cả đời để có được.",tags:["Luyện thi 9 lên 10","Luyện thi môn Toán THPTQG","Đa đạng phương pháp - Nâng cao tư duy","Bồi dưỡng học sinh giỏi"],phone:"0935 626 527"},
   {subject:"Hóa",className:"Lớp Hóa",name:"Thầy Võ Minh Khuê",shortName:"Thầy Khuê",poster:"/images/thay-khue.png",quote:"Làm được hay không thì chưa biết, nhưng không làm thì chắc chắn vẫn sẽ không biết.",tags:["Luyện thi","Dạy Hóa 9-12","Thạc sĩ Hóa hữu cơ","10 năm kinh nghiệm"],phone:"0397 357 460"},
   {subject:"Tiếng Anh",className:"Lớp Tiếng Anh",name:"Thầy Trung",shortName:"Thầy Trung",poster:"/images/thay-trung.png",quote:"Think and take action immediately, your dream will come true.",tags:["Luyện thi chuyển cấp","Dạy Tiếng Anh các cấp","Sát sao từng học sinh","Nhiều học sinh 8+, 9+"],phone:"0342 569 845"},
   {subject:"KHTN",className:"Lớp KHTN",name:"Cô Trinh",shortName:"Cô Trinh",poster:"/images/co-trinh.png",quote:"Đời sống thì có hạn mà sự học thì vô hạn.",tags:["Dạy KHTN THCS","Dạy Toán THCS","Luyện thi 9 lên 10","5 năm kinh nghiệm"],phone:"0799 417 242"},
